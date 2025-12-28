@@ -7,10 +7,10 @@ We build custom extensions that bridge legacy systems with modern PostgreSQL inf
 ## Extensions
 
 ### Foundation Tools
-**pg-helloworld** - Verify your environment is correctly configured for building PostgreSQL extensions. Tests compilation, installation, and runtime loading.
+**pg_helloworld** - Verify your environment is correctly configured for building PostgreSQL extensions. Tests compilation, installation, and runtime loading.
 
 ### Performance Optimizations
-**pg-num2int-direct-comp** - Eliminate performance-destroying casts when comparing numeric types (decimal, numeric, float) with integer columns. Essential for schema mismatches in joins and lookups where index scans become table scans.
+**pg_num2int_direct_comp** - Eliminate performance-destroying casts when comparing numeric types (decimal, numeric, float) with integer columns. Essential for schema mismatches in joins and lookups where index scans become table scans.
 
 ### Data Type Enhancements  
 **pg-text-insens** - Blank-insensitive text comparison for scenarios requiring flexible string matching without normalization overhead.
